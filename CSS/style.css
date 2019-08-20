@@ -1,0 +1,318 @@
+body{  
+	margin: 0px;
+	padding: 0px;
+    zoom: 90%;
+    background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	background-attachment: fixed;
+}
+.bg-1{
+	background-color: #E8E8E8;*/
+	/*background-color: #33ccff;*/
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+a{
+	text-decoration-line: none;
+}
+#header0{
+	color: #FFFF00;
+	text-align: center;
+	background-color: blue;
+	padding: 10px;
+}
+#header{
+	text-align: center;
+	color: #FFFF00;
+	background-color: blue; 	
+	/*background:linear-gradient(blue,yellow);*/
+	font-weight: bolder;
+	padding: 10px;
+}
+#printhead{
+	text-align: center;
+	/*color: #FFFF00;
+	background-color: blue;*/	
+	font-weight: bolder;
+	width: 100%;
+}
+#login{
+	float: left;
+	margin-left: 60px;
+	margin-top: 40px;
+	box-shadow: black 10px 10px 5px;
+	background-color: darkblue;
+	/*background-color: #4d94ff;*/
+	padding: 30px 115px 20px 115px;
+}
+#login label{
+	font-size: 15px;
+	color: black;
+}
+#login #myModal label{
+	color: black;
+}
+.bigfield{
+	width: 280px;
+	height: 50px;
+	border: none;
+	font-size: 40px;
+	text-align: center;
+}
+.lfield{
+	width: 280px;
+	height: 30px;
+	border: none;
+	text-align: center;
+}
+.sfield{
+	width: 60px;
+	height: 30px;
+	border: none;
+	text-align: center;
+}
+.lbutton{
+	width: 280px;
+	height: 30px;
+	border: none;
+	text-align: center;
+	background-color: #4CAF50; 
+	font-weight: bolder;
+}
+.big:hover {
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+}
+#info{
+	position: fixed;
+	float: left;
+	background-color: white;
+	/*background-color: #b3ecff;*/
+	border: 1px solid black;
+	margin-top: 195px;
+	padding: 20px;
+	height: 100%;
+	margin-right: 30px;
+	margin-left: 3px;
+	box-shadow: 10px 10px 5px;
+}
+#form{
+    float: left;
+	padding: 0px;
+	background-color: #E8E8E8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-left: 5px;
+	border: none;
+	width: 99.5%;
+	height: 470px;
+}
+#slideshow{
+	float: left; 
+	margin-left: 200px; 
+	margin-top: 30px;
+}
+
+/*info navigator*/
+.w3-sidenav{
+	height:100%;width:300px;background-color:#fff;position:fixed !important;z-index:1;overflow:auto;
+}
+.w3-white{
+	color:#000 !important;background-color:#fff !important;
+}
+.w3-card-2{
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+.w3-closenav{
+	color:inherit;
+	-webkit-transition:all 0.3s ease;transition:all 0.3s ease;
+}
+.w3-large{
+	font-size:18px !important;
+}
+.w3-container:after{
+	float:left;width:100%;
+}
+.w3-teal{
+	color:#fff !important;background-color:#009688 !important;
+}
+.w3-opennav{
+	color:inherit;
+	-webkit-transition:all 0.3s ease;transition:all 0.3s ease;
+}
+.w3-closenav:hover{
+	cursor:pointer;opacity:0.8;
+}
+.w3-xlarge{
+	font-size:21px !important;
+}
+
+/*administrator page*/
+
+#nav{
+	float: right;
+	width: 100%;
+	height: 65px;
+	/*padding-right: 5px;
+	margin-right: 80px;*/
+	background-color: blue;
+	/*background-color: #4CAF50;*/
+}
+
+#nav ul li{
+	list-style-type: none;
+}
+
+.dropbtn {
+    background-color: blue;
+    color: #FFFF00;
+    padding: 16px 10px 16px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #4CAF50;*/
+    background-color: #E8E8E8;
+    margin-left: -10px;
+    margin-top: 16.8px;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px;
+    text-decoration-line: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #FFFF00;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #FFFF00;
+    color: black;
+} 
+#search{
+	margin-top: 20px;
+}
+label{
+	font-size: 17px;
+	font-weight: bolder;
+}
+.can{
+	background-color: darkblue;
+	color: yellow;
+	text-align: center;
+	width: 200px;
+	float: left;
+	margin-left: 200px;
+}
+
+/*forgot password*/
+
+#forpass{
+	float: left;
+	margin-left: 460px;
+	margin-top: 240px;
+	box-shadow: black 10px 10px 5px;
+	background-color: darkblue;
+	padding: 50px 150px 50px 150px;
+}
+#forpass label{
+	color: yellow;
+}
+
+/*student module*/
+
+#nav2{
+	margin-left: 1000px;
+	margin-top: 200px;
+	float: right;
+	position: fixed;
+}
+
+#nav2 ul li{
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+/*system setting*/
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    height: auto;
+    border-top: none;
+}
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#myModal {
+	width: 600px !important;
+}
